@@ -10,6 +10,10 @@ html, body{
     position: relative;
 }
 
+section{
+    position: relative;
+}
+
 section.intro{
     font-weight: 700;
     color: #737373;
@@ -40,7 +44,7 @@ section.intro .contato-container .logo-whatsapp{
 }
 
 section.diferencas-sistemas{
-    margin-top: 3rem;    
+    margin-top: 3rem;  
 }
 
 section.diferencas-sistemas h1{
@@ -51,10 +55,22 @@ section.diferencas-sistemas h1{
     
 }
 
-section.diferencas-sistemas .logo-hse-sistemas-container{
-    background-color: lightsalmon; 
+section.diferencas-sistemas .titulo-sistema{
+    font-size: 1.7rem;
+    font-weight: 700;
+    letter-spacing: -0.1rem;
+    
 }
 
+
 section.diferencas-sistemas .logo-hse-sistemas{
-    width: 3rem;
+    width: 8rem;
+}
+
+section.screenshot-sistema{
+    margin-top: 5rem;
+}
+
+section.screenshot-sistema img{
+    width: 100%;
 }
