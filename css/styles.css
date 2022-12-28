@@ -10,6 +10,10 @@ html, body{
     position: relative;
 }
 
+section.intro{
+    font-weight: 700;
+}
+
 section.intro .logo-whatsapp{
     width: 3rem;
 }
