@@ -38,3 +38,23 @@ section.intro .contato-container .logo-whatsapp{
     cursor: pointer;
     width: 4rem;
 }
+
+section.diferencas-sistemas{
+    margin-top: 3rem;    
+}
+
+section.diferencas-sistemas h1{
+    text-align: center;
+    color: #545454;
+    font-size: 1.5rem;
+    font-weight: 700;
+    
+}
+
+section.diferencas-sistemas .logo-hse-sistemas-container{
+    background-color: lightsalmon; 
+}
+
+section.diferencas-sistemas .logo-hse-sistemas{
+    width: 3rem;
+}
