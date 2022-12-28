@@ -74,3 +74,14 @@ section.screenshot-sistema{
 section.screenshot-sistema img{
     width: 100%;
 }
+
+section.cadastro-indicante{
+    margin-top: 4rem;
+    padding-bottom: 5rem;
+}
+
+section.cadastro-indicante .logo-hse-sistemas{
+    width: 8rem;
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+}
