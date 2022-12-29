@@ -111,10 +111,10 @@ section.cadastro-indicante .form-cadastro .botao-enviar{
 
 footer{
     padding-bottom: 5rem;
+    font-weight: 500;
 }
 
 footer .logo-hse-sistemas{
     width: 8rem;
-    margin-top: 8rem;
     margin-bottom: 2rem;
 }
