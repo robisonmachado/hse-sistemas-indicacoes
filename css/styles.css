@@ -10,6 +10,11 @@ html, body{
     position: relative;
 }
 
+a, a:visited, a:active, a:hover, a:link{
+    text-decoration: none;
+    color: black;
+}
+
 section{
     position: relative;
 }
@@ -36,15 +41,19 @@ section.intro .botao-contato{
     cursor: pointer;
 }
 
-section.intro .contato-container .logo-whatsapp{
+section.intro .contato-container .link-whatsapp{
     position: absolute;
     right: 0;
+}
+
+section.intro .contato-container .logo-whatsapp{
     cursor: pointer;
     width: 4rem;
 }
 
 section.diferencas-sistemas{
-    margin-top: 3rem;  
+    margin-top: 3rem;
+    font-weight: 500;
 }
 
 section.diferencas-sistemas h1{
@@ -52,6 +61,7 @@ section.diferencas-sistemas h1{
     color: #545454;
     font-size: 1.5rem;
     font-weight: 700;
+    margin-bottom: 1.5rem;
     
 }
 
@@ -59,12 +69,10 @@ section.diferencas-sistemas .titulo-sistema{
     font-size: 1.7rem;
     font-weight: 700;
     letter-spacing: -0.1rem;
-    
 }
 
-
-section.diferencas-sistemas .logo-hse-sistemas{
-    width: 8rem;
+.diferencas-sistemas .control-on{
+    color: #02989e;
 }
 
 section.screenshot-sistema{
@@ -77,10 +85,30 @@ section.screenshot-sistema img{
 
 section.cadastro-indicante{
     margin-top: 4rem;
+    
+}
+
+section.cadastro-indicante .conteudo{
+    position: relative;
+    margin-bottom: 2rem;
+    padding: 2rem;
+}
+
+section.cadastro-indicante .propaganda{
+    color: #048186;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+section.cadastro-indicante .propaganda .screenshot-pagina-login{
+    width: 100%;
+}
+
+footer{
     padding-bottom: 5rem;
 }
 
-section.cadastro-indicante .logo-hse-sistemas{
+footer .logo-hse-sistemas{
     width: 8rem;
     margin-top: 8rem;
     margin-bottom: 2rem;

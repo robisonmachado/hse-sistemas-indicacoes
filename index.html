@@ -47,8 +47,12 @@
             </li>
         </ul>
         <div class="contato-container">
-            <button type="button" class="botao-contato">Entre em contato agora</button>
-            <img src="imagens/logo-whatsapp.png" alt="logo whatsapp" class="logo-whatsapp">
+            <a class="botao-contato" href="#form-cadastro">Entre em contato agora</a>
+            
+            <a class="link-whatsapp" href="https://wa.me/5527999651168?text=quero%20saber%20mais%20sobre%20a%20indica%C3%A7%C3%A3o">
+                <img src="imagens/logo-whatsapp.png" alt="logo whatsapp" class="logo-whatsapp">
+            </a>
+            
         </div>
     </section>
 
@@ -60,10 +64,9 @@
             </div>
             <div class="caracteristicas col-12 col-md-6">
                 <ul>
-                    <li>Precisa ser instalado em cada máquina, com um servidor local.
-                        Dificulta o acesso de fora da sua empresa.
-                        Precisa estruturar um backup que nem sempre te resguarda.
-                    </li>
+                    <li>Precisa ser instalado em cada máquina, com um servidor local.</li>
+                    <li>Dificulta o acesso de fora da sua empresa.</li>
+                    <li>Precisa estruturar um backup que nem sempre te resguarda.</li>
                     <li>
                         Consultas lentas ou até limitadas, com poucos recursos gráficos e
                         informações limitadas
@@ -92,9 +95,7 @@
                 </ul>
             </div>
         </div>
-        <div class="logo-hse-sistemas-container d-flex justify-content-center align-items-center">
-            <img src="imagens/logo-hse-sistemas.png" alt="logo HSE Sistemas" class="logo-hse-sistemas">
-        </div>
+        
     </section>
 
     <section class="screenshot-sistema container">
@@ -102,16 +103,44 @@
     </section>
 
     <section class="cadastro-indicante container">
-        <div class="sistema sistemas-instalados row">
-            <div class="propaganda d-flex col-12 col-md-6 align-items-center justify-content-center justify-content-md-start">
-                <p>Com este link, você já ganhou a implantação grátis + 3 meses com 50% de desconto</p>
-                <img src="" alt="imagem tela login sistema">
+        <div class="row">
+            <div class="conteudo propaganda col-12 col-md-6 align-items-center justify-content-center justify-content-md-start">
+                <p class="text-center">Com este link, você já ganhou a implantação grátis + 3 meses com 50% de desconto</p>
+                <img src="imagens/screenshot-pagina-login.png" alt="imagem tela login sistema" class="screenshot-pagina-login">
             </div>
-            <div class="form-cadastro-indicante col-12 col-md-6">
-                <div>formulário de cadastro do indicante</div>
+            <div class="conteudo form-cadastro-indicante col-12 col-md-6 align-items-center justify-content-center justify-content-md-start">
+                <form id="form-cadastro">
+                    <div class="mb-3">
+                      <label for="nome" class="form-label">Seu nome</label>
+                      <input type="text" class="form-control" id="nome">
+                    </div>
+                    <div class="mb-3">
+                      <label for="email" class="form-label">Qual seu email</label>
+                      <input type="email" class="form-control" id="email">
+                    </div>
+                    <div class="mb-3">
+                      <label for="whatsapp" class="form-label">Seu whatsapp</label>
+                      <input type="text" class="form-control" id="whatsapp">
+                    </div>
+                    <div class="mb-3">
+                      <label for="empresa" class="form-label">Nome da sua empresa</label>
+                      <input type="text" class="form-control" id="empresa">
+                    </div>
+                    <div class="mb-3">
+                      <label for="simples" class="form-label">Simples nacional?</label>
+                      <input type="text" class="form-control" id="simples">
+                    </div>
+                    <div class="mb-3">
+                      <label for="quantidade-funcionarios" class="form-label">Quantidade de funcionários</label>
+                      <input type="number" class="form-control" id="quantidade-funcionarios">
+                    </div>
+                    <button type="submit" class="btn btn-primary">enviar</button>
+                </form>
             </div>
         </div>
-        
+    </section>
+
+    <footer>
         <div class="logo-hse-sistemas-container d-flex justify-content-center align-items-center">
             <img src="imagens/logo-hse-sistemas.png" alt="logo HSE Sistemas" class="logo-hse-sistemas">
         </div>
@@ -119,7 +148,7 @@
             <p class="text-center m-0">comercial@hsesistemas.com.br</p>
             <p class="text-center m-0">(27) 3026-7060</p>
         </div>
-    </section>
+    </footer>
 
 </body>
 </html>
