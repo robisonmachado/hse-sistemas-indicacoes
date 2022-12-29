@@ -104,6 +104,11 @@ section.cadastro-indicante .propaganda .screenshot-pagina-login{
     width: 100%;
 }
 
+section.cadastro-indicante .form-cadastro .botao-enviar{
+    background-color: #02989e;
+    font-weight: 500;
+}
+
 footer{
     padding-bottom: 5rem;
 }
